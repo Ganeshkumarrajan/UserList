@@ -1,6 +1,6 @@
 package com.anonymous.userlist.domain
 
-import kotlinx.coroutines.flow.Flow
+import com.anonymous.userlist.domain.property_list.model.PropertyListDomain
 
 interface PropertyRepository {
     @Throws(Exception::class)
