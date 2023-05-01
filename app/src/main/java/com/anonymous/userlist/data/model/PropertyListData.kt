@@ -1,4 +1,4 @@
-package com.anonymous.userlist.data
+package com.anonymous.userlist.data.model
 
 data class PropertyListData(
     val items: List<Item?>?,

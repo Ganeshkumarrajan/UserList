@@ -1,7 +1,7 @@
-package com.anonymous.userlist.presentation
+package com.anonymous.userlist.presentation.di
 
 import com.anonymous.userlist.BuildConfig
-import com.anonymous.userlist.data.PropertyService
+import com.anonymous.userlist.data.service.PropertyService
 import com.skydoves.sandwich.coroutines.CoroutinesResponseCallAdapterFactory
 import dagger.Module
 import dagger.Provides

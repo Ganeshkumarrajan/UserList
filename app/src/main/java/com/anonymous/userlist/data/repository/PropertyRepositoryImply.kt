@@ -1,9 +1,11 @@
-package com.anonymous.userlist.data
+package com.anonymous.userlist.data.repository
 
-import com.anonymous.userlist.domain.PropertyListDomain
+import com.anonymous.userlist.data.model.PropertyListData
+import com.anonymous.userlist.data.service.PropertyService
+import com.anonymous.userlist.data.utils.getResult
+import com.anonymous.userlist.data.mapper.MapDataToDomain
+import com.anonymous.userlist.domain.property_list.model.PropertyListDomain
 import com.anonymous.userlist.domain.PropertyRepository
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.flow
 
 class PropertyRepositoryImply(
     private val propertyService: PropertyService,

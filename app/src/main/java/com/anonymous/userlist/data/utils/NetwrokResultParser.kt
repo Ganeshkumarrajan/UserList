@@ -1,4 +1,4 @@
-package com.anonymous.userlist.data
+package com.anonymous.userlist.data.utils
 
 import com.skydoves.sandwich.ApiResponse
 import com.skydoves.sandwich.onError

@@ -1,5 +1,8 @@
-package com.anonymous.userlist.domain
+package com.anonymous.userlist.domain.property_list.usecase
 
+import com.anonymous.userlist.domain.PropertyRepository
+import com.anonymous.userlist.domain.property_list.model.PropertyListDomain
+import com.anonymous.userlist.domain.utils.NetworkResult
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.flow

@@ -1,14 +1,14 @@
-package com.anonymous.userlist.presentation.property_list
+package com.anonymous.userlist.presentation.property_list.viewmodel
 
-import android.util.Log
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.anonymous.userlist.domain.GetPropertyListUseCase
-import com.anonymous.userlist.domain.NetworkResult
-import com.anonymous.userlist.domain.PropertyListDomain
-import com.anonymous.userlist.presentation.UIState
-import com.anonymous.userlist.ui.theme.component.PropertyCardProperties
+import com.anonymous.userlist.domain.property_list.usecase.GetPropertyListUseCase
+import com.anonymous.userlist.domain.utils.NetworkResult
+import com.anonymous.userlist.domain.property_list.model.PropertyListDomain
+import com.anonymous.userlist.presentation.utils.UIState
+import com.anonymous.userlist.presentation.property_list.mapper.MapperDomainToUI
+import com.anonymous.userlist.ui.theme.component.properties.PropertyCardProperties
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch

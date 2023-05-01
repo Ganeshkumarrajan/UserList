@@ -1,7 +1,7 @@
-package com.anonymous.userlist.presentation
+package com.anonymous.userlist.presentation.di
 
-import com.anonymous.userlist.domain.GetPropertyListUseCase
-import com.anonymous.userlist.domain.GetPropertyListUseCaseImpl
+import com.anonymous.userlist.domain.property_list.usecase.GetPropertyListUseCase
+import com.anonymous.userlist.domain.property_list.usecase.GetPropertyListUseCaseImpl
 import com.anonymous.userlist.domain.PropertyRepository
 import dagger.Module
 import dagger.Provides

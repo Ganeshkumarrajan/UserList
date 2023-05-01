@@ -1,8 +1,8 @@
-package com.anonymous.userlist.domain
+package com.anonymous.userlist.domain.utils
 
-import kotlinx.coroutines.flow.Flow
+import com.anonymous.userlist.domain.property_list.model.PropertyListDomain
 
 sealed class NetworkResult<T> {
     data class Success<T>(val data: List<PropertyListDomain>) : NetworkResult<T>()
-    class Error<T>() : NetworkResult<T>()
+    class Error<T>: NetworkResult<T>()
 }

@@ -1,7 +1,11 @@
-package com.anonymous.userlist.presentation
+package com.anonymous.userlist.presentation.di
 
-import com.anonymous.userlist.data.*
-import com.anonymous.userlist.domain.PropertyListDomain
+import com.anonymous.userlist.data.mapper.MapDataToDomain
+import com.anonymous.userlist.data.mapper.PropertyListDataMapper
+import com.anonymous.userlist.data.model.PropertyListData
+import com.anonymous.userlist.data.repository.PropertyRepositoryImply
+import com.anonymous.userlist.data.service.PropertyService
+import com.anonymous.userlist.domain.property_list.model.PropertyListDomain
 import com.anonymous.userlist.domain.PropertyRepository
 import dagger.Module
 import dagger.Provides

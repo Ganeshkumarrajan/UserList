@@ -1,4 +1,4 @@
-package com.anonymous.userlist.domain
+package com.anonymous.userlist.domain.property_list.model
 
 data class PropertyListDomain(
     val id: Int,
