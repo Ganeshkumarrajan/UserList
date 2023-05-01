@@ -4,7 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.anonymous.userlist.presentation.property_details.PropertyDetailsScreen
+import com.anonymous.userlist.presentation.property_details.screen.PropertyDetailsScreen
 import com.anonymous.userlist.presentation.property_list.screen.PropertyListScreen
 
 @Composable

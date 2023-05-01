@@ -17,7 +17,7 @@ fun PropertyListScreen(
     navController: NavController,
     viewModel: PropertyListViewModel = hiltViewModel()
 ) {
-    Column() {
+    Column {
         when (val result = viewModel.properties.value) {
             is UIState.Success -> {
                 ShowItems(result.data, navController)
