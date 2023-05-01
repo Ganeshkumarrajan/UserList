@@ -1,6 +1,8 @@
 package com.anonymous.userlist.domain
 
+import kotlinx.coroutines.flow.Flow
+
 interface PropertyRepository {
     @Throws(Exception::class)
-    fun getProperties(): List<PropertyListDomain>
+    suspend fun getProperties(): List<PropertyListDomain>
 }

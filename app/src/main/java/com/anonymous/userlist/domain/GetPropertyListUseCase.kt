@@ -19,6 +19,7 @@ class GetPropertyListUseCaseImpl(
         flow<NetworkResult<List<PropertyListDomain>>> {
             emit(NetworkResult.Success(propertyRepository.getProperties()))
         }.catch {
+            print(it.localizedMessage)
             emit(NetworkResult.Error())
         }.flowOn(coroutineContext)
 
